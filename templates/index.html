@@ -8,6 +8,11 @@
 <body>
 
     <h1>HOLA MUNDO</h1>
+    {% if name   %}
+    <p>Hola, {{name}}</p>
+    {% else %}
+    <p>Hola desconocido</p>
+    {% endif %}
     
 </body>
 </html>
